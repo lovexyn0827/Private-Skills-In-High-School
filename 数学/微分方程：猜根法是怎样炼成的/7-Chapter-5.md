@@ -97,18 +97,29 @@ $$
 
 最后再给出一些非线性方程解的参考形式（虽然并不是高中时发现或用到的）：
 $$
-f'(x)=e^{f(x)}\implies f(x)=-\ln (-x)\tag{5.19}
+f'(x)=e^{f(x)}\implies f(x)=-\ln (-x+C)\tag{5.19}
 $$
 
 $$
-f'(x)=\sqrt{1+[f(x)]^2}\implies f(x)=\cosh x=\frac{e^x+e^{-x}}{2}\tag{5.20}
+f'(x)=\sqrt{1+[f(x)]^2}\implies f(x)=\cosh{x+C}=\frac{e^{x+C}+e^{-x-C}}{2}\tag{5.20}
 $$
 
 $$
-f'(x)=\sqrt{1-[f(x)]^2},x\in\left[-\frac{\pi}2,\frac{\pi}2\right)\implies f(x)=\sin x\tag{5.21}
+f'(x)=\sqrt{1-[f(x)]^2},x\in\left[-\frac{\pi}2,\frac{\pi}2\right)\implies f(x)=\sin (x+C)\tag{5.21}
 $$
 
-$$
-
-$$
-
+> 至于这些公式具体是怎么来的，可以由高数教材中的“分离变量法”解释。例如对(5.19)我们可以将原方程写为
+> $$
+> \frac{df(x)}{dx}=e^{-f(x)}\tag{5.22}
+> $$
+> 即
+> $$
+> e^{-f(x)}\cdot df(x)=dx\tag{5.23}
+> $$
+> 两边同时积分
+> $$
+> -e^{-f(x)}=x+C\tag{5.24}
+> $$
+> 整理后即得到原公式。
+>
+> （事实上我们在前边求解方程(5.9)时也用到了这一方法）

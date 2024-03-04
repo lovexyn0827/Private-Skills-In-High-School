@@ -13,7 +13,7 @@ $$
 
 > 当然，这只是一个为了举例而举的例子，这里我们实际上不会用到这么吓人的方程。
 
-先给出一个特别通用的求根公式：
+先给出一个特别特别通用的求根公式：
 
 对方程
 $$
@@ -64,7 +64,7 @@ f(x)=A\sin{(\omega t+\varphi)}\tag{10.9}
 $$
 这就O了。
 
-太简单了？再来一个有点挑战性的：
+太简单了？再来一个可以把玩一下的：
 $$
 f''(x)+pf'(x)+qf(x)=0\tag{10.10}
 $$
@@ -212,17 +212,33 @@ f'(x)=k[f(x)]^\alpha\implies f(x)=\left[k(1-\alpha)x+b\right]^{\frac1{1-\alpha}}
 $$
 下面我们再给出来一堆用不多的求根公式：
 $$
-f'(x)=e^{f(x)}\implies f(x)=-\ln (-x)\tag{10.36}
+f'(x)=e^{f(x)}\implies f(x)=-\ln (-x+C)\tag{10.36}
 $$
 
 $$
-f'(x)=\sqrt{1+[f(x)]^2}\implies f(x)=\cosh x=\frac{e^x+e^{-x}}{2}\tag{10.37}
+f'(x)=\sqrt{1+[f(x)]^2}\implies f(x)=\cosh(x+C)=\frac{e^{x+C}+e^{-x-C}}{2}\tag{10.37}
 $$
 
 $$
-f'(x)=\sqrt{1-[f(x)]^2},x\in\left[-\frac{\pi}2,\frac{\pi}2\right)\implies f(x)=\sin x\tag{10.38}
+f'(x)=\sqrt{1-[f(x)]^2},x\in\left[-\frac{\pi}2,\frac{\pi}2\right)\implies f(x)=\sin(x+C)\tag{10.38}
 $$
+
+要说怎样来的……分离常数YYDS：
+$$
+f'(x)=G(f(x))\iff \frac{df(x)}{dx}=G(f(x))\iff\frac1{G(f(x))}df(x)=dx\tag{10.39}
+$$
+两边同时积分就OK了！
+
+至于实际应用，给出如下几条（无顺序）：
+
+- 猜
+- 暴算
+- 套公式
+- 设而不求
+- 建模应准确
+- 定性分析参数
 
 最后，待定系数法坑太多，不讲；数列法几乎没用，不讲。
 
-不到1700字完事！
+不到1800字完事！
+
