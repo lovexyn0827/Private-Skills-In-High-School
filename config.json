@@ -1,0 +1,22 @@
+{
+    "import": "config",
+    "name": "冷门的高中解题技巧", 
+    "navbar": {
+        "title": "冷门的高中解题技巧",
+        "home_url": "/high-school/docs/"
+    }, 
+    "footer":{
+        "top":[
+            {
+                "label": "",
+                "items": [
+                    {
+                        "label": "Github仓库",
+                        "url": "https://github.com/lovexyn0827/Private-Skills-In-High-School",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        ]
+    }
+}
