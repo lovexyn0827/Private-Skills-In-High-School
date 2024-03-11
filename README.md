@@ -10,6 +10,8 @@ draft: false
 # Private-Skills-In-High-School
 自用的高考解题技巧（编写与审核尚未完成，谨慎翻阅）
 
+[在线阅读](http://lovexyn0827.space/high-school/docs)
+
 ## 高中数学
 
 [计算任意四面体体积的魔法](数学/这玩意能求体积？.md)
