@@ -1,4 +1,6 @@
 ---
+title: 三：高阶微分方程
+date: false
 keywords: 高中, 数学, 物理, 微分方程, 计算, lovexyn0827
 desc: 高阶微分方程是指方程当中包含原函数的二阶及以上导数的微分方程，出现的最高导数阶数为n的方程为n阶微分方程，例如下面的方程即为一个二阶微分方程
 id: differential_equation_high_school:5

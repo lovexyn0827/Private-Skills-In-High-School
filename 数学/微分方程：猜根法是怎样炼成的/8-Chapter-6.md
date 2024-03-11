@@ -1,4 +1,6 @@
 ---
+title: 六：微分方程组
+date: false
 keywords: 高中, 数学, 物理, 微分方程, 计算, lovexyn0827
 desc: 很多时候，我们研究的是多个变量相互作用的情况，这时，类似于我们常见的多元一次方程组，我们这里也需要列出多个微分方程来构成方程组，来看这样的一个例子：
 id: differential_equation_high_school:8

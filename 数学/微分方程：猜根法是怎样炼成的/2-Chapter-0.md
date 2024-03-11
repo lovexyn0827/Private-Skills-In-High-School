@@ -1,4 +1,6 @@
 ---
+title: 零：梦开始的地方
+date: false
 keywords: 高中, 数学, 物理, 微分方程, 计算, lovexyn0827
 desc: 下面是笔者在高中时接触的第一个微分方程。尽管这个方程的形式异常地简单，但是，部分确实也是因为没有上心，自己在很长一段时间都没有得到满意的答案。
 id: differential_equation_high_school:2

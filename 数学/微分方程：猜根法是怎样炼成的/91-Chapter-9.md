@@ -1,4 +1,6 @@
 ---
+title: 九：整活方法——数列通项法
+date: false
 keywords: 高中, 数学, 物理, 微分方程, 计算, lovexyn0827
 desc: 方法的本质逻辑是利用了微分方程描述变量变化方式与变量本身的关系这一特点与自然变化的“平滑性”，通过将连续过程离散化，并减小离散化的程度来减少离散化对结果的影响。
 id: differential_equation_high_school:11

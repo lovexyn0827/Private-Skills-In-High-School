@@ -1,4 +1,6 @@
 ---
+title: 微分方程：猜根是怎样炼成的
+date: false
 keywords: 高中, 数学, 物理, 微分方程, 计算, lovexyn0827
 desc: 在高中物理中，我们经常会对一些运动规律确定，但却难以定量分析的过程进行分析，这有时会显得相当困难，甚至可能容易得到错误的结果。这时，我们可以引入一个新的工具：微分方程。
 id: differential_equation_high_school:0

@@ -1,4 +1,6 @@
 ---
+title: 五：非线性方程
+date: false
 keywords: 高中, 数学, 物理, 微分方程, 计算, lovexyn0827
 desc: 在前边，我们求解的方程都是“线性”的，也就是说，我们求解的方程中$f(x)$及其导数都只与其他元素参加了加法与乘法运算，没有参加诸如取倒数，求幂以及做指数等“非线性”的运算。
 id: differential_equation_high_school:7

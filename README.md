@@ -1,4 +1,6 @@
 ---
+title: 自用的高考解题技巧
+date: false
 keywords: 高中, 高考, 解题技巧, lovexyn0827
 desc: 自用的高考解题技巧合集（编写与审核尚未完成，谨慎翻阅）
 id: private-skills-in-high-school:0
