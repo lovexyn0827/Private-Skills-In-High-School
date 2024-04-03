@@ -8,8 +8,8 @@ items:
         file: 数学/这玩意能求体积？.md
     -   label: 从圆锥曲线的旋转到不等式的可视化
         file: 数学/二次曲线的旋转与不等式.md
-#    -   label: 20230326·数学篇
-#        file: 数学/20230326·数学篇.md
+    -   label: 20230326·数学篇
+        file: 数学/20230326·数学篇.md
 #    -   label: 微分方程：猜根法是怎样炼成的
 #        file: 数学/微分方程：猜根法是怎样炼成的/0-Preface.md
 #        items: 
@@ -55,10 +55,48 @@ items:
             file: 数学/2023每周押题与命题思路/originalPapers.md
 #    -   label: 瞬时增长率研究
 #        file: 数学/瞬时增长率研究.md
+-   label: 英语
+    collapsed: false
+    items:
+    -   label: 20230326·英语篇
+        file: 英语/20230326·英语篇.md
 -   label: 物理
     collapsed: false
     items:
+    -   label: 20230326·物理篇
+        file: 物理/20230326·物理篇.md
     -   label: 弹性碰撞“一动碰一动”模型的五种分析思路
         file: 物理/弹性碰撞“一动碰一动”模型的四种分析思路.md
 #    -   label: 线性阻力模型
 #        file: 物理/线性阻力模型.md
+-   label: 化学
+    collapsed: false
+    items:
+    -   label: 20230326·化学篇
+        file: 化学/20230326·化学篇.md
+-   label: 生物
+    collapsed: false
+    items:
+    -   label: 20230326·生物篇
+        file: 生物/20230326·生物篇.md
+-   label: 全科通用
+    collapsed: false
+    items:
+    -   label: 20230326·英语篇
+        file: 全科通用/20230326·全科篇.md
+-   label: "20230326"
+    collapsed: true
+    file: 20230326/README.md
+    items:
+    -   label: 20230326·数学篇
+        file: 数学/20230326·数学篇.md
+    -   label: 20230326·英语篇
+        file: 英语/20230326·英语篇.md
+    -   label: 20230326·物理篇
+        file: 物理/20230326·物理篇.md
+    -   label: 20230326·化学篇
+        file: 化学/20230326·化学篇.md
+    -   label: 20230326·生物篇
+        file: 生物/20230326·生物篇.md
+    -   label: 20230326·全科篇
+        file: 全科通用/20230326·全科篇.md
