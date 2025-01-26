@@ -197,3 +197,290 @@ $$
 $$
 p_n=(\frac23n-\frac{19}9)(-1)^n-\frac292^n
 $$
+
+# 2024.10.15
+
+<img src="http://i0.hdslb.com/bfs/new_dyn/4262fad1510ae68803382728cced22271907393115.jpg" alt="img" style="zoom: 25%;" />
+
+（1）解：由洛仑兹力作向心力
+$$
+m\frac{v_0^2}r=qvB
+$$
+由几何关系
+$$
+\sqrt3r\cdot \frac{\sqrt3}2=d
+$$
+解得
+$$
+v=\frac{3qBd}{2m}
+$$
+（2）【法一】解：由牛顿第二定律
+$$
+mv_x'=-qv_yB\tag{1}
+$$
+
+$$
+mv_y'=qv_xB-qE\tag{2}
+$$
+
+对(2)两端同时求导
+$$
+mv_y''=qv_x'B
+$$
+联立(1)与上式有
+$$
+qv_yB=-mv_x'=-m\frac{m}{qB}v_y''
+$$
+即
+$$
+v_y''=-\frac{q^2B^2}{m^2}v_y
+$$
+解得
+$$
+v_y=v_r\sin\left(\frac{qB}m t+\varphi_0\right)
+$$
+继而
+$$
+v_x=\frac EB-v_r\cos\left(\frac{qB}m t+\varphi_0\right)
+$$
+考虑到初值条件，可解得
+$$
+v_r=\frac {\sqrt3E}B
+$$
+
+$$
+\varphi_0=\frac\pi2
+$$
+
+所以
+$$
+v_y=\frac {\sqrt3E}B\cos\left(\frac{qB}mt\right)
+$$
+
+$$
+y=\frac{\sqrt3mE}{qB^2}\sin\left(\frac{qB}m t\right)
+$$
+
+故粒子偏离$x$轴的最大距离为
+$$
+y_m=\frac{\sqrt3mE}{qB^2}
+$$
+【法二】解：由牛顿第二定律
+$$
+ma_x=-qv_yB
+$$
+
+$$
+ma_y=qv_xB-qE
+$$
+
+设粒子相对一个以速度$\frac EB$水平向右匀速直线运动的参考系$R$的相对速度为$v_p$，相对加速度为$a_p$则
+$$
+v_x=v_p+\frac EB
+$$
+
+$$
+a_p=v_p
+$$
+
+联立上述诸式有
+$$
+ma_p=-qBv_y
+$$
+
+$$
+ma_y=qE+qBv_p-qE=qBv_p
+$$
+
+继而粒子相对参考系$R$的速度与加速度在坐标系中的斜率分别为
+$$
+k_1=\frac{v_y}{v_p}
+$$
+
+$$
+k_2=\frac{a_y}{a_p}=-\frac{v_p}{v_y}
+$$
+
+所以$k_1k_2=-1$，加速度与速度垂直。而且
+$$
+\sqrt{a_p^2+a_y^2}=\frac{qB}{m}\sqrt{v_p^2+v_y^2}=\frac{qB}{m}v_r
+$$
+即相对加速度的大小与相对速度成正比。由上述分析知粒子相对$R$做匀速直线运动。
+
+设粒子相对$R$做匀速圆周运动的线速度和半径分别为$v_r$、$r$，则有
+$$
+\sqrt{a_p^2+a_y^2}=\frac{qB}{m}\sqrt{v_p^2+v_y^2}=\frac{qB}{m}v_r=\frac{v_r^2}r\tag{1}
+$$
+初始状态下，易知
+$$
+v_{p0}=v_0\sin\frac\pi6-\frac EB=0
+$$
+
+$$
+v_{y0}=v_0\cos\frac\pi6=\sqrt3\frac EB
+$$
+
+故粒子相对$P$做圆周运动的线速度
+$$
+v_{r}=\sqrt{v_{p0}^2+v_{y0}^2}=\frac{\sqrt3 E}B\tag{2}
+$$
+联立(1)(2)解得
+$$
+r=\frac{\sqrt 3mE}{qB^2}
+$$
+考虑到初态下粒子相对$R$的速度竖直向上，由几何关系，粒子等到达的最远位置
+$$
+y_m=r=\frac{\sqrt 3mE}{qB^2}
+$$
+【法三】解：假设粒子的速度由一个水平分量和一个符合匀速圆周运动的分量组成，且水平分量向右，大小为
+$$
+v_h=\frac EB
+$$
+假设粒子仅以线速度$v_r$做半径为$r$的圆周运动，则有
+$$
+m\frac{v_r^2}r=qv_rB
+$$
+假设粒子仅拥有$v_h$，则
+$$
+ma_y=qB\frac{E}B-qE=0
+$$
+物体
+
+
+
+
+
+
+
+（3）【法一】解：由牛顿第二定律
+$$
+mv_x'=-kv_x-qv_yB\tag{1}
+$$
+
+$$
+mv_y'=qv_xB-kv_y\tag{2}
+$$
+
+列出上述微分方程组的系数矩阵
+$$
+\boldsymbol A=\begin{pmatrix}
+-\frac{k}{m}&-\frac{qB}{m}\\
+\frac{qB}{m}&-\frac{k}{m}
+\end{pmatrix}
+$$
+其特征值$\alpha$满足方程
+$$
+\alpha^2+\frac{2k}{m}\alpha+\frac{k^2}{m^2}=\left(\alpha+\frac km\right)=-\frac{q^2B^2}{m^2}
+$$
+解得
+$$
+\alpha=-\frac km\pm\frac{qB}{m}i
+$$
+故可给出$v_x'$形式如下
+$$
+v_x=C_1e^{\alpha_1t}+C_2e^{\alpha_2t}=Re^{-\frac kmt}\sin\left(\frac{qB}mt+\varphi\right)
+$$
+
+> 这一步的证明可以参考[前些天未完成的文稿](https://lovexyn0827.space/misc/docs/%E4%B8%80%E4%B8%AA%E5%AD%A6%E6%9C%9F%E8%A7%A3%E4%B8%80%E4%B8%AA%E6%96%B9%E7%A8%8B%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%9F%E5%8F%97%EF%BC%88%E4%BA%8C%EF%BC%89.html)
+
+回代入(1)解得
+$$
+v_y=-Re^{-\frac kmt}\cos\left(\frac{qB}mt+\varphi\right)
+$$
+结合初值条件解得
+$$
+R=-v_0
+$$
+
+$$
+\varphi=-\theta
+$$
+
+解得
+$$
+v_x=v_0e^{-\frac kmt}\sin\left(\theta-\frac{qB}mt\right)
+$$
+
+$$
+v_y=v_0e^{-\frac kmt}\cos\left(\theta-\frac{qB}mt\right)
+$$
+
+故
+$$
+y=\frac{kmv_0}{k^2+q^2B^2}\cos\theta-v_0e^{-\frac kmt}\left(\frac{qBm}{k^2+q^2B^2}\sin\left(\theta-\frac{qB}mt\right)+\frac{km}{k^2+q^2B^2}\cos\left(\theta-\frac{qB}mt\right)\right)
+$$
+令$v_y=0$，则可解得
+$$
+\cos\left(\theta-\frac{qB}mt\right)=0
+$$
+
+$$
+\theta-\frac{qB}mt=-\frac\pi2
+$$
+
+$$
+t=\frac{m}{qB}\left(\theta+\frac\pi2\right)
+$$
+
+此时$y$取最大值
+$$
+y_M=\frac{mv_0}{k^2+q^2B^2}\left(qBe^{-\frac{k}{qB}\left(\theta+\frac\pi2\right)}+k\cos\theta\right)
+$$
+由分析知$y_M$随$\theta$单调递减，故要使粒子可以尽可能地离开边界，$\theta$应取最小值0，此时
+$$
+y_M=\frac{mv_0}{k^2+q^2B^2}\left(qBe^{-\frac{\pi k}{2qB}}+k\right)
+$$
+令$y_M=d$，解得
+$$
+v_0=\frac{k^2+q^2B^2}{m\left(qBe^{-\frac{\pi k}{2qB}}+k\right)}d
+$$
+【法二】（超纲部分更少但依然不可避免，实际上应是永远不可避免）
+
+解：由动量定理，若粒子恰好穿过磁场区域，竖直方向上
+$$
+0-mv_0\cos\theta=-k\overline{v_y}\Delta t+q\overline{v_x}B\Delta t
+$$
+
+$$
+mv_{xT}-mv_0=-k\overline{v_x}\Delta t-q\overline{v_y}B\Delta t
+$$
+
+粒子轨迹方向上
+$$
+0-mv_0=-k\overline{v}\Delta t
+$$
+因为粒子在磁场中圆周运动的角速度与速度无关，故阻力造成的速度变化不影响粒子的运动时长。假定$k=0$，易知粒子在恰好能离开磁场区域时的运动时长为
+$$
+\Delta t=\frac{m}{qB}\left(\theta+\frac\pi2\right)
+$$
+这在$k\ne0$时同样成立。
+
+由分析知，粒子向上直接入射，即$\theta=0$时，运动时长更短，全程中平均速率更大，故更容易穿过磁场区域，此时
+$$
+\Delta t=\frac{\pi m}{2qB}
+$$
+
+> 到这里必须引入一个超纲的结论，加速度与速度满足关系$a=-fv$的质点的$v-t$方程为$v=v_0e^{-ft}$，因为高中阶段的动量定理等工具只能研究边界状态，或特定中间状态中各量的联系（如单杆模型下速度与位移和时间的联系），而这里涉及了更一般的中间状态的求解。
+
+由牛顿第二定律，粒子在轨迹方向上
+$$
+a=-\frac{k}{m}v
+$$
+故粒子离开磁场时的速度大小
+$$
+v_T=-v_{xT}=v_0e^{-\frac km \Delta t}=v_0e^{-\frac{\pi k}{2qB}}
+$$
+而
+$$
+\overline {v_y}\Delta t=d
+$$
+联立诸式解得
+$$
+v_0=\frac{k^2+q^2B^2}{m(qBe^{-\frac{\pi k}{2qB}}-k+qB)}d
+$$
+
+
+
+
+
+

@@ -10,32 +10,33 @@ items:
         file: 数学/二次曲线的旋转与不等式.md
     -   label: 20230326·数学篇
         file: 数学/20230326·数学篇.md
-#    -   label: 微分方程：猜根法是怎样炼成的
-#        file: 数学/微分方程：猜根法是怎样炼成的/0-Preface.md
-#        items: 
-#        -   label: 预备知识（积分）
-#            file: 数学/微分方程：猜根法是怎样炼成的/1-Chapter-m1.md
-#        -   label: 梦开始的地方
-#            file: 数学/微分方程：猜根法是怎样炼成的/2-Chapter-0.md
-#        -   label: 入门
-#           file: 数学/微分方程：猜根法是怎样炼成的/3-Chapter-1.md
-#        -   label: 初识公式化方法
-#            file: 数学/微分方程：猜根法是怎样炼成的/4-Chapter-2.md
-#        -   label: 高阶微分方程
-#            file: 数学/微分方程：猜根法是怎样炼成的/5-Chapter-3.md
-#        -   label: 构造法的进一步认识与另外两类重要方程
-#            file: 数学/微分方程：猜根法是怎样炼成的/6-Chapter-4.md
-#        -   label: 非线性方程
-#            file: 数学/微分方程：猜根法是怎样炼成的/7-Chapter-5.md
-#        -   label: 微分方程组
-#            file: 数学/微分方程：猜根法是怎样炼成的/8-Chapter-6.md
-#        -   label: 同构思想
-#            file: 数学/微分方程：猜根法是怎样炼成的/9-Chapter-7.md
-#        -   label: 待定系数法
-#            file: 数学/微分方程：猜根法是怎样炼成的/90-Chapter-8.md
-#        -   label: 整活方法——数列通项法
-#            file: 数学/微分方程：猜根法是怎样炼成的/91-Chapter-9.md
-#        -   label: 太长不看
+    -   label: 微分方程：猜根法是怎样炼成的
+        file: 数学/微分方程：猜根法是怎样炼成的/0-Preface.md
+        items: 
+        -   label: 预备知识（积分）
+            file: 数学/微分方程：猜根法是怎样炼成的/1-Chapter-m1.md
+        -   label: 梦开始的地方
+            file: 数学/微分方程：猜根法是怎样炼成的/2-Chapter-0.md
+        -   label: 入门
+            file: 数学/微分方程：猜根法是怎样炼成的/3-Chapter-1.md
+        -   label: 初识公式化方法
+            file: 数学/微分方程：猜根法是怎样炼成的/4-Chapter-2.md
+        -   label: 高阶微分方程
+            file: 数学/微分方程：猜根法是怎样炼成的/5-Chapter-3.md
+        -   label: 构造法的进一步认识与另外两类重要方程
+            file: 数学/微分方程：猜根法是怎样炼成的/6-Chapter-4.md
+        -   label: 非线性方程
+            file: 数学/微分方程：猜根法是怎样炼成的/7-Chapter-5.md
+        -   label: 微分方程组
+            file: 数学/微分方程：猜根法是怎样炼成的/8-Chapter-6.md
+        -   label: 同构思想
+            file: 数学/微分方程：猜根法是怎样炼成的/9-Chapter-7.md
+        -   label: 待定系数法
+            file: 数学/微分方程：猜根法是怎样炼成的/90-Chapter-8.md
+        -   label: 整活方法——数列通项法
+            file: 数学/微分方程：猜根法是怎样炼成的/91-Chapter-9.md
+        -   label: 太长不看
+            file: 数学/微分方程：猜根法是怎样炼成的/92-Chapter-10.md
     -   label: 2023每周押题与命题思路
         file: 数学/2023每周押题与命题思路/README.md
         items:
@@ -67,8 +68,8 @@ items:
         file: 物理/20230326·物理篇.md
     -   label: 弹性碰撞“一动碰一动”模型的五种分析思路
         file: 物理/弹性碰撞“一动碰一动”模型的四种分析思路.md
-#    -   label: 线性阻力模型
-#        file: 物理/线性阻力模型.md
+    -   label: 线性阻力模型
+        file: 物理/线性阻力模型.md
 -   label: 化学
     collapsed: false
     items:

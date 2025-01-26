@@ -4,7 +4,7 @@ date: false
 keywords: 高中, 数学, 物理, 微分方程, 计算, lovexyn0827
 desc: 高阶微分方程是指方程当中包含原函数的二阶及以上导数的微分方程，出现的最高导数阶数为n的方程为n阶微分方程，例如下面的方程即为一个二阶微分方程
 id: differential_equation_high_school:5
-draft: true
+draft: false
 ---
 
 # 三：高阶微分方程
@@ -239,6 +239,8 @@ $$
 > $$
 > f(x)=e^{\frac p2x}\left(\frac{e^{\frac p2x_0}-e^{\frac p2x_1}}{x_0-x_1}x+\frac{x_1e^{\frac p2x_0}-x_0e^{\frac p2x_1}}{x_1-x0}\right)\tag{3.43}
 > $$
+> 也就是说，结果具有$f(x)=e^{\frac p2x}(ax+b)$这一形式。
+>
 > 对于原方程组无实数解的情形，我们需要引入欧拉公式
 > $$
 > e^{ix}=\cos x+i\sin x\tag{3.44}

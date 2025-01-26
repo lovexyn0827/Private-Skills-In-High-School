@@ -4,7 +4,7 @@ date: false
 keywords: 高中, 数学, 物理, 微分方程, 计算, lovexyn0827
 desc: 在上文当中，我们多次用到了构造目标函数这一方法，通过猜测解的形式来推进求解进程，这里我们将通过求解几个方程来进一步体会这一方法的强大之处。
 id: differential_equation_high_school:6
-draft: true
+draft: false
 ---
 
 # 四：构造法的进一步认识与另外两类重要方程

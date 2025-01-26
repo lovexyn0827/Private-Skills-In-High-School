@@ -4,7 +4,7 @@ date: false
 keywords: 高中, 数学, 物理, 微分方程, 计算, lovexyn0827
 desc: 让我们考虑更一般的形式：回顾复合函数求导公式：将$y(x)=e^x$代入上式当中，我们得到。这样便很容易发现，对形如$f(x)=e^{t(x)}$的函数求导后，得到的函数是指数位置的函数的导数与原函数的乘积。
 id: differential_equation_high_school:4
-draft: true
+draft: false
 ---
 
 # 二：初识公式化方法

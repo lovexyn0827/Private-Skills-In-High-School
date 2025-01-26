@@ -4,7 +4,7 @@ date: false
 keywords: 高中, 数学, 物理, 微分方程, 计算, lovexyn0827
 desc: 试着在一千来字以内把能交代的都交代完。微分方程是一种含有函数及其导数的方程，其解是一个函数，里边最高阶导数的阶数为微分方程的阶数。例如下面是一个二阶微分方程：先给出一个特别特别通用的求根公式：
 id: differential_equation_high_school:12
-draft: true
+draft: false
 ---
 
 # 十：太长不看

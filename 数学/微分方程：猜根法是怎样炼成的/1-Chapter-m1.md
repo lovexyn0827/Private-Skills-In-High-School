@@ -4,7 +4,7 @@ date: false
 keywords: 高中, 数学, 物理, 积分, 计算, lovexyn0827
 desc: 因为本文是面向高中生而写的，故此处我们简要的提一下“积分”的概念与一些重要方法。
 id: differential_equation_high_school:1
-draft: true
+draft: false
 ---
 
 # 负一：预备知识（积分）

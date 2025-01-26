@@ -4,7 +4,7 @@ date: false
 keywords: 高中, 数学, 物理, 微分方程, 计算, lovexyn0827
 desc: 这里讲到的方法我们在之前很多时候也实践过（比如对二阶方程同构降阶时），甚至我们也用过更离谱的“待定函数法”，这里单独留出一章只是为了强调这种方法的重要性与该方法的一些更纯粹的应用，以及一些坑点。
 id: differential_equation_high_school:10
-draft: true
+draft: false
 ---
 
 # 八：待定系数法
